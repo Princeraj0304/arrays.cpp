@@ -35,7 +35,7 @@ int main()
 {
     int arr[15]={1,2,3,2,2,1};
     int size=6;
-
+                                                                                         
     duplicatearr(arr,size);
     return 0;
 }
