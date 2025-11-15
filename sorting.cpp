@@ -10,17 +10,11 @@ void sorted(int arr[],int size){
             {
                 minindex=j;
             
-            }
-           
-              
+            } 
         }
           swap(arr[minindex],arr[i]);
-         
-        
+            
     }
-    
-
-
 }
 
 int main()
