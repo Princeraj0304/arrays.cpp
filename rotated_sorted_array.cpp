@@ -35,27 +35,18 @@ int binarysearch(int arr[],int initial,int final,int key){
         if(arr[mid]==key){
            return mid;
         }
-        else if(key<arr[mid]){
-            end=mid-1;
+        else if(arr[mid]<key){
+            start=mid+1;
         }
 
         else{
-            start=mid+1;
+            end=mid-1;
         }
          
          mid=start+(end-start)/2;
-
-
-     }
-
-     return -1;
-
-
-     
+    }
+     return -1;    
 }
-
-
-
 int main()
 {
     int arr[]={5,6,7,1,2,3,4};
