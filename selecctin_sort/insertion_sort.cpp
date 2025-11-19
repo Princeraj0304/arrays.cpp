@@ -18,6 +18,8 @@ int insertionsort(int arr[],int size){
             }
             
         }
+
+        arr[j+1]=temp;
         
 
     }
@@ -25,6 +27,7 @@ int insertionsort(int arr[],int size){
 }
 
 int main()
+
 {
     int arr[]={12,5,66,2,6,8};
     int size=6;
